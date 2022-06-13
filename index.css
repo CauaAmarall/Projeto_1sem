@@ -1,0 +1,168 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: end;
+}
+
+#nav_esquerda{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:baseline;
+}
+
+#nav_direita{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#imagem{
+    margin-left: 10px;
+    height: 70%;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.links_menu{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.links_menu>a{
+    color: black;
+    text-decoration-color: transparent;
+}
+
+#hr1{
+    height: 13px;
+    width: 0.5px;
+    background-color: black;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+#catalogo{
+    width: 30%;
+    height: 470px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#catalogo_menu_esquerda{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(123, 197, 181);
+    padding-top:1%;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 0;
+}
+
+#catalogo_itens{
+    width: 80%;
+    padding-top:1%;
+}
+
+#footer{
+    background-color: rgb(123, 197, 181);
+    height: 50px;
+}
+
+.cat_rows{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cat_cols{
+    height: 190px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5%;
+    
+}
+
+#imagem2{
+    position: relative;
+    bottom: 0;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+.games{
+    height: 150px;
+    width: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.prices{
+    background-color: black;
+    color: white;
+    border: 1px solid green;
+    height: 10%;
+    width: 90%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#corpo{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: gray;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
